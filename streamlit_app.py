@@ -1,6 +1,8 @@
 import streamlit as st
 
-st.title("🎈 My new app")
+st.title("🎈Dell'Alba csv to json")
 st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    "Carica un file csv"
 )
+
+st.file_uploader(label="Carica un file csv",type='csv',accept_multiple_files=False)
